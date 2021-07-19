@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{
+  width: 12px;
+  background: #434242
+}
+::-webkit-scrollbar-thumb{
+  background: #242323;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #afa4a4
+}
+/*ANASAYFA*/
+.content {
+  padding: 2em;
+  min-width: 100%;
+  min-height: 700px;
+  background-image:url("./components/pages/SyImg/kimia-zarifi-ZA_VmLP4u-M-unsplash.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position:20% 70%;
+  background-size: cover
+}
+.contenty{
+  font-size: 1.5em;
+  padding: 20px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Dela Gothic One', cursive;
+  text-align: center;
+}
+.content2{
+  padding: 15px;
+}
+.content2 p {
+  margin: 10px;
+  text-align:justify;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+  color: #4c515e;
+}
+.content2 h5 {
+  font-family: 'Alfa Slab One', cursive;
+  margin-top: 10px;
+  font-size: 2em;
+  padding: 10px;
+  color: #526694;
+}
+.content2 h4 {
+  font-family: 'Work Sans', sans-serif;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 2.4em;
+  text-align: center;
+  color: #3563ce;
+}
+.bizkimiz{
+  
+  width: 100%;
+  height: 80%;
+}
+.content3{
+  padding: 2em;
+  min-width: 100%;
+  min-height: 200px;
+  background-image: url('./components/pages/SyImg/boru.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position:20% 70%;
+  background-size: cover
+}
+.content3p{
+  font-size: 2.3em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: rgb(71, 64, 170);
+  margin-bottom: 1em;
+}
+.content4{
+  background-color: #EDF3F8;
+  padding: 10px;
+  margin-top: 15px;
+}
+.content4 p {
+  font-size: 1.4em;
+  margin-bottom: 35px;
+  color: #606779;
+}
+.content4 h3{
+  font-size: 2em;
+  margin-top: 75px;
+  margin-bottom: 55px;
+  margin-left: 20px;
+  color: #1450db;
+}
+
+
+
+/* İLETİŞİM */
+
+.contact{
+  min-width: 100%;
+  min-height: 300px;
+  background-image: url('./components/pages/SyImg/contactt.jpg');
+  background-color: black;
+  background-position:40% 30%;
+  background-size: cover;
+}
+.contact h4{
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  padding-top: 1em;
+  font-size: 30px;
+}
+.contact p{
+  font-family: 'Roboto Slab', serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 2em;
+}
+
+
+/* HAKKIMIZDA*/
+.about{
+  min-width: 100%;
+  min-height: 300px;
+  background-image: url('./components/pages/SyImg/Hakkimizda.jpg');
+  background-color: black;
+  background-position:40% 30%;
+  background-size: cover;
+  margin-bottom: 2%;
+}
+.about h3{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 1em;
+  font-size: 2em;
+}
+.hakkp{
+  font-size: 1.4em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.hakkh{
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.hakkd{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*REFERANSLAR*/
+.ref{
+  min-width: 100%;
+  min-height: 500px;
+  background-image: url('./components/pages/SyImg/referans.jpg');
+  background-color: black;
+  background-position:50% 20%;
+  background-size: cover;
+}
+
+
+/* URUNLER*/
+.urunler{
+  min-width: 100%;
+  min-height: 300px;
+  background-image: url('./components/pages/SyImg/urunler.jpg');
+  background-color: black;
+  background-position:50% 65%;
+  background-size: cover;
+}

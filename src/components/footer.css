@@ -1,0 +1,20 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#e9e6e6;
+    color: gray;
+    text-align: center;
+    border-top: 2px solid black;
+}
+.felem{
+  margin-top: 5px;
+  font-size:  1.2em;
+}
+.felem2{
+  background-color: rgba(46, 46, 46, 0.89);
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
