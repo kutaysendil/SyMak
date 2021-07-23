@@ -19,21 +19,23 @@ export default function Home() {
       </div>
       <Container>
         <div className="content2">
-          <h4>BİZ KİMİZ ?</h4>
-          <h5>SY Makina - Çelik Konstrüksiyon</h5>
-          <div>
-            <p>
-              firmamiz... Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Suscipit a magnam adipisci et provident deleniti
-              perspiciatis doloremque vero eaque soluta blanditiis iste non cum
-              error quisquam omnis, tempora repellendus expedita animi
-              reiciendis porro neque quia dolor! Nobis, in? Distinctio sapiente
-              ducimus eaque sunt nihil cumque assumenda doloremque quo odit
-              dolore. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Soluta laboriosam blanditiis, reiciendis nulla iste impedit
-              aperiam neque illum, et nesciunt sit, error suscipit sapiente non
-              deleniti natus cumque? Qui, quibusdam!
-            </p>
+          <div className="cont3">
+            <h4>BİZ KİMİZ ?</h4>
+            <h5>SY Makina - Çelik Konstrüksiyon</h5>
+            <div>
+              <p>
+                firmamiz... Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Suscipit a magnam adipisci et provident deleniti
+                perspiciatis doloremque vero eaque soluta blanditiis iste non
+                cum error quisquam omnis, tempora repellendus expedita animi
+                reiciendis porro neque quia dolor! Nobis, in? Distinctio
+                sapiente ducimus eaque sunt nihil cumque assumenda doloremque
+                quo odit dolore. Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Soluta laboriosam blanditiis, reiciendis nulla
+                iste impedit aperiam neque illum, et nesciunt sit, error
+                suscipit sapiente non deleniti natus cumque? Qui, quibusdam!
+              </p>
+            </div>
           </div>
 
           <Button

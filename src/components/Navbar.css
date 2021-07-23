@@ -102,10 +102,12 @@
     padding: 2rem;
     width: 100%;
     display: table;
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
 
   .nav-links:hover {
-    background-color: #1888ff;
+    background-color: #9cbada;
     border-radius: 0;
   }
 
